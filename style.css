@@ -86,5 +86,35 @@ h5{
 
 .main_place_right{
     margin-top: 140px;
-    margin-right: 53;
+    margin-right: 53px;
+    margin-bottom: -50px;
+}
+
+.benefits{
+    background-color: rgba(32, 140, 239, 0.06);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 207px;
+    flex-shrink: 0;
+}
+
+.benefits_text{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 110%; /* 70.4px */
+    background: var(--unnamed, linear-gradient(225deg, #02A3FF 0%, #2A84E9 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 6px;
+}
+
+.benefits_desciption{
+
+    width: 174px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }
