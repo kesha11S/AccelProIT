@@ -1,10 +1,86 @@
 body{
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0px;
 }
-p{
-    color: red;
+
+.page{
+    width: 1440px;
+    margin: auto;
 }
-.text{
-    color: aqua;
+
+.header{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 21px;
+    padding-bottom: 16px;
+    padding-left: 135px;
+    padding-right: 132px;
+    margin: 0px;
+
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+}
+
+.main_place{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main_place_left{
+    width: 400px;
+    margin-top: 238px;
+    margin-left: 126px;
+}
+
+h5{
+    color: #888;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140.625%; /* 16.875px */
+}
+
+.main_place_header{
+    margin-top: 9px;
+    width: 665px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 52.8px */
+}
+
+.wrapper{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px
+}
+
+.wrapper_object{
+    width: 60px;
+}
+
+.become_partner{
+    width: 223px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 5px;
+    background: var(--unnamed, linear-gradient(225deg, #02A3FF 0%, #2A84E9 100%));
+    margin-top: 61px;
+}
+
+.main_place_right{
+    margin-top: 140px;
+    margin-right: 53;
 }
